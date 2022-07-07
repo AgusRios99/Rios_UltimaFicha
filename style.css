@@ -4,6 +4,8 @@
     box-sizing: border-box;
     
 }
+
+
 .logo {
     display: flex;
     flex-direction:wrap;
