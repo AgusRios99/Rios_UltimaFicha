@@ -1,204 +1,54 @@
 *{
-    margin:0;
-    padding:0px;
-    box-sizing: border-box;
-    
-}
-
-
-.logo {
-    display: flex;
-    flex-direction:wrap;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-    font-size: 1,6em;
-    justify-content:flex-start;
-}
-
-.header h1{   
     margin: 0;
-    padding: 25px 30px;
-    
-    background-color: #fffffb;
-  
-    
-}
-
-body{
-    margin: 0;
-    background: #fcfbfc;   
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
-    padding: flex;
-}
-.navegacion{ 
-    display: block;
-    background-color: rgb(184, 156, 212);
-    border-style:outset ;
-    list-style: none;
-    text-align: start;
-    
-}
-
-
-nav a{
-    font-weight: 600;
-    padding-right: 10px;
-    
-}
-
-.logo img{
-    height: 100px;
-    width: 90px;
-    margin-right: 0px;
-    transform: rotate(350deg);
-}
-
-.nav-menu{
-width: max-content;
-}
-
-.navegacion ul{
-    list-style: none;
-    
-}
-
-.menu > li{
-    position:relative;
-    display: inline-block;
-    
-}
-
-.menu > li > a{
-    text-align: left;
-    padding: 15px 110px 3px;
-    color: black;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    text-decoration:solid;
-    font-weight: bold;
-    padding: flex;
-    
-   
+    box-sizing: border-box;
+    transition: 0.5s;
 }
-
-.menu li a:hover{
-    color:rgb(255, 255, 255);
-    transition: all .3s;
+body{
+    height: 100vh;
+    width: 100%;
+    position: relative;
     
 }
 
-h1{
-    display: inline-block;
-    font-size: 3.5em;
-    position: relative;    
-}
-
-h2{ text-align: center;
-    font-size: 2.7em;}
-p{font-size: 1.25em;}
-ul{list-style:none;}
-li{font-size:1.25em;}
-button{
-    font-size: 1.25EM;
-    font-weight: bold;
-    padding: 10PX 30PX;
-    border-radius: 5px;
-    border: 2px solid rgb(000, 000, 000);
-    box-shadow: 2px 2px 10px rgb(000, 000, 005);
-    color: #ffffff;
-    background-color: blueviolet;
-}
-
-button:hover{
-    background-color: rgb(101, 33, 165);
-}
-
-table{
-    height: 10px;
-    width: 10px;
-}
-
-article{
-   height: 200px;
-   
-}
-
-h3{ justify-content: center;
-    display: flex;
-    color:blueviolet;
-    font-weight: bold;
-    
-}
-
-.grid-container{
-    grid-template-columns:repeat(auto,340px);
-    border: 1px solid black;
-    background: beige;
-    padding: 100px;
-    display: grid;
-    text-align: center;
-    margin: 0 auto;
-    width: 80%;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    gap: 20px;
-
-}
-
-.gridProductos{
-  text-align: center;
-  margin: 0 auto;
-}
-
-
-.Servicios{
-
-display: flex;
-align-items: center;
-justify-self: center;
-text-align: center;
-flex-direction: column;
-height: 90vh;
-color: #080808;
-}
-#NuestrosServicios{
-  
-    font-weight: bold;
-    color: #070706;
-    background-image:url("ultima Ficha/assets/img/ultimaficha.png");
-    background-size: cover;
-    height: 200px;
+.LogoInicio img{
+    display:block;
+    margin:0 auto;
     width: 300px;
+    
 }
-@media screen and (min-width:320px){
-    @media screen and (min-width:320px){
 
-    .header{
-        flex-direction: column;
-        }
-        
-        .navegacion{
-            display: block;
-            flex-direction: column;
-            }
-            .nav-menu{
-                
-                width: 100%;
-                top: 70px;
+.col img{
+    display:block;
+    margin: 0 auto;
+    width: 400px;
+    height: 120px;
+}
 
-            }
-            .menu ul{
-                position: fixed;
-                width: 100%;
-                height: 100vh;
-                top:80px;
-                left: -100%;
-                text-align: center;
-            }
-            section{
-            grid-template-columns: repeat(3,auto);
-            grid-template-rows: repeat(3,auto)
-        
+footer{
+    
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
 
-            }
-       }
-      }
+.Productos-Destacados{
+    text-align: center;
+    padding: 200px 12px;
+
+}
+
+
+
+
+@media  screen and (min-width:768px){ 
+    
+ .body{
+background-color: #ffff;
+ }
+}
