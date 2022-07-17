@@ -11,11 +11,11 @@ body{
     width: 100%;
     position: relative;
     text-align: center;
-    
+    background-color: #ffff;
     h1{
     font-family: 'Koulen', cursive;                    
-    font-size: 100px;
-     text-align: center;
+    font-size: 10vw;
+    text-align: center;
      
 }
 }
@@ -35,16 +35,24 @@ body{
 }
 
  .Combos{
-    margin: auto;
-    width: 50%;
-    display: flex;
-    padding: 5px;
-    flex: 20%;
-    text-align: center;
-    button{
-    text-align: center;
-    background-color: $colorFondo
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ecf0f1;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1em;
     
+    .Combos :hover{
+        border: 1px solid #030303;
+
+    .carta1{
+        width: 48%;
+        display: inline-block;
+        
+       
+
+
+}   
 }
 }
 footer{
@@ -58,9 +66,8 @@ footer{
     align-items: center;
 }
 
-@media  screen and (min-width:768px){ 
+@media  screen  and (min-width:600px){ .combos{
+    grid-template-columns: repeat(2, 1fr);
+}
     
- .body{
-background-color: #ffff;
- }
 }
