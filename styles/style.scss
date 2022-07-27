@@ -20,6 +20,19 @@ body{
 }
 }
 
+.contacto{
+    position: relative;
+    width: 100%;
+    padding: 10px 100px;
+}
+
+.contacto .titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+
 .LogoInicio img{
     display:block;
     margin:0 auto;
