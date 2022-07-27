@@ -20,54 +20,17 @@ body{
 }
 }
 
-.contacto{
-    position: relative;
-    width: 100%;
-    padding: 10px 100px;
-}
 
-.contacto .titulo{
-    display: flex;
-    justify-content: center;
+
+.LogoInicio{
     align-items: center;
-    font-size: 32px;
-}
-
-.LogoInicio img{
-    display:block;
+    justify-content: center;
+    display:flex;
     margin:0 auto;
     width: 300px;
     
 }
 
-.col img{
-    display:block;
-    margin: 0 auto;
-    width: 100%;
-    height: 50px;
-}
-
- .Combos{
-    max-width: 1200px;
-    margin: 0 auto;
-    background-color: #ecf0f1;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 1em;
-    
-    .Combos :hover{
-        border: 1px solid #030303;
-
-    .carta1{
-        width: 48%;
-        display: inline-block;
-        
-       
-
-
-}   
-}
-}
 footer{
     
     width: 100%;
