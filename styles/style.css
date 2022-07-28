@@ -6,43 +6,57 @@
 }
 
 body {
-  display: flex;
-  height: 100vh;
-  width: 100%;
-  text-align: center;
-  background-color: white;
-  justify-content: center;
-}
-body h1 {
-  display: flex;
-  font-family: "Koulen", cursive;
-  font-size: 10vw;
   text-align: center;
 }
 
-.LogoInicial {
-  width: 100%;
-  position: relative;
-  bottom: 0;
+.navBar {
+  position: absolute;
+  top: 0;
   left: 0;
-  display: block;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer {
-  text-align: center;
+  display: flex;
   width: 100%;
-  position: relative;
-  bottom: 0;
-  left: 0;
-  display: block;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  color: whitesmoke;
 }
 
-@media screen and (min-width: 600px) {
-  .combos {
-    grid-template-columns: repeat(2, 1fr);
-  }
+.LOGO {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  display: inline-block;
+  position: relative;
+}
+
+h1::after, h1::before {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 3px;
+  background-color: black;
+  top: 0.6em;
+}
+
+h1::before {
+  left: -140px;
+}
+
+h1::after {
+  right: -140px;
+}
+
+h4 {
+  color: black;
+  background-color: yellow;
+  text-align: center;
+  padding: 20px;
+  margin: 50px;
+  letter-spacing: 5px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
