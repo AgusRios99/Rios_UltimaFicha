@@ -49,11 +49,56 @@ h1::after {
 
 h4 {
   color: black;
-  background-color: yellow;
+  background-color: rgb(144, 192, 178);
   text-align: center;
   padding: 20px;
   margin: 50px;
   letter-spacing: 5px;
+}
+
+section {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  grid-template-columns: auto;
+  justify-items: center;
+  align-items: start;
+}
+
+.Mother {
+  height: 200px;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+}
+
+.Monitor {
+  height: 200px;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+}
+
+.Mouse {
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Notebooks {
+  height: 200px;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+}
+
+.Fondo {
+  background-image: url(/assets/img/ultimaficha.png);
 }
 
 footer {
